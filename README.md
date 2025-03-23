@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# BookWorm Project Documentation
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Overview
+BookWorm is a digital reading platform designed to enhance the reading experience by providing an interactive and user-friendly interface. It is available as both a **mobile application** (BookWorm-Mobile) and a **web-based platform** (Bookworm). The project aims to offer book lovers an easy way to discover, read, and manage their favorite books.
 
-## Get started
+## Features
+- **User Authentication**: Secure login and signup functionality.
+- **Book Library**: Browse and search a vast collection of books.
+- **Bookmarks & Highlights**: Save your favorite sections for later.
+- **Personalized Recommendations**: Get book suggestions based on reading history.
+- **Offline Mode**: Download books for offline reading.
+- **Dark Mode Support**: Customize the reading environment.
 
-1. Install dependencies
+## Tech Stack
+### Mobile App (BookWorm-Mobile)
+- **Frontend**: React Native
+- **Backend**: Firebase
+- **Database**: Firestore
+- **State Management**: Redux
+- **Authentication**: Firebase Auth
 
-   ```bash
+### Web App (Bookworm)
+- **Frontend**: React.js
+- **Backend**: Node.js with Express
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+
+## Installation Guide
+### Mobile App (BookWorm-Mobile)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/amitkumarraikwar/BookWorm-Mobile.git
+   ```
+2. Install dependencies:
+   ```sh
+   cd BookWorm-Mobile
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Run the app:
+   ```sh
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+### Web App (Bookworm)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/amitkumarraikwar/Bookworm.git
+   ```
+2. Install dependencies:
+   ```sh
+   cd Bookworm
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage Instructions
+- **Sign Up / Login**: Create an account or log in to access your book library.
+- **Search & Browse**: Use the search bar to find books by title, author, or genre.
+- **Read & Bookmark**: Open a book to read and save bookmarks for later reference.
+- **Customize Experience**: Enable dark mode and adjust reading preferences.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributors
+- **Amit Kumar Raikwar** - Developer & Maintainer
 
-## Get a fresh project
+## Future Enhancements
+- **Audiobook Support**
+- **Community Features (Reviews & Discussions)**
+- **Multi-Language Support**
+- **AI-Powered Book Summaries**
 
-When you're ready, run:
+## License
+This project is licensed under the MIT License.
 
-```bash
-npm run reset-project
-```
+For more details, visit:
+- **Mobile App Repository**: [GitHub - BookWorm-Mobile](https://github.com/amitkumarraikwar/BookWorm-Mobile)
+- **Web App Repository**: [GitHub - Bookworm](https://github.com/amitkumarraikwar/Bookworm)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
